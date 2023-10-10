@@ -1,8 +1,8 @@
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.utility.transparent-nvim" },
+  { import = "astrocommunity.color.transparent-nvim" },
   {
-    "transparent.nvim",
+    "xiyaowong/transparent.nvim",
     priority = 1000,
     opts = {
       extra_groups = {
